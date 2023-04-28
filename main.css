@@ -1,0 +1,120 @@
+﻿* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(9, 33, 61);
+    text-decoration: none;
+}
+
+input, textarea {
+    padding: 8px;
+}
+
+/* ~~~~~~~~~~ HEADER ~~~~~~~~~~ */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #A7DDFC;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 1366px;
+    margin: 0 auto;
+}
+
+header img {
+    height: 100px;
+    margin: 16px;
+}
+
+/* NAV */
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    gap: 32px;
+    list-style: none;
+}
+
+nav li {
+    width: 100px;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* ~~~~~~~~~~ CURRÍCULO ~~~~~~~~~~ */
+
+section {
+    display: flex;
+    justify-content: center;
+    margin: 64px 128px;
+    gap: 16px;
+}
+
+.front-images {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 512px;
+    gap: 16px;
+}
+
+.curriculo ul li {
+    margin-left: 32px;
+}
+
+article {
+    width: 512px;
+}
+
+/* ~~~~~~~~~~ FORMULÁRIO ~~~~~~~~~~ */
+
+.contato .contato-container {
+    display: flex;
+    gap: 64px;
+    margin-top: 64px;
+}
+
+article {
+    width: 400px;
+}
+
+article textarea {
+    resize: none;
+}
+
+article, article form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* ~~~~~~~~~~ ESCRITÓRIO ~~~~~~~~~~ */
+
+
+/* ~~~~~~~~~~ REDES SOCIAIS ~~~~~~~~~~ */
+
+.contato article {
+    width: 400px;
+}
+
+.contato img {
+    margin: 16px 8px;
+    height: 32px;
+}
+
+.contato a {
+    text-decoration: none;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A7DDFC;
+}

@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 4 - Exercício</title>
+
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="./assets/img/gatos/logo.jpg" alt="Gato assustado">
+            <h1>O GATO VALENTIN</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Saber mais</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="curriculo">
+        <div class="front-images">
+            <img src="./assets/img/gatos/apresentacao.jpg" alt="Foto de currículo">
+            <img src="./assets/img/gatos/medroca.jfif" alt="Assustadíssimo">
+        </div>
+        <article>
+            <h2>Procurando uma posição como especialista em espantar ameaças em casas.</h2><br/><br/>
+            <ul>
+                <h3>Perfil Profissional:<br/><br/></h3>
+                <li>Gato medroso, mas especialista em assustar outros animais.<br/></li>
+                <li>Habilidoso em perseguir, saltar e fazer barulho para espantar os animais.<br/></li>
+                <li>Possui experiência em trabalhar em casas, especialmente na área de controle de pragas.<br/></li>
+                <li>Excelente capacidade de adaptação a novos ambientes e pessoas.<br/></br></li>
+                <h3>Experiência Profissional:<br/><br/></h3>
+                <li>Especialista em espantar animais em casas particulares (Atualmente trabalhando)<br/></li>
+                <li>Responsável por controlar a presença de outros animais nas casas, especialmente roedores.<br/></li>
+                <li>Conhecimento em táticas de espantar animais sem prejudicá-los.<br/></li>
+                <li>Excelentes habilidades de comunicação com proprietários de casas.<br/><br/></li>
+                <h3>Educação:<br/><br/></h3>
+                <li>Graduação em sobrevivência nas ruas (Autoeducação)<br/></li>
+                <li>Gato a Jato University (Formação Acadêmica)</li>
+                <li>Especialização em controle de pragas (Experiência Profissional)<br/><br/></li>
+                <h3>Habilidades e Competências:<br/><br/></h3>
+                <li>Especialista em espantar animais.<br/></li>
+                <li>Habilidade em se adaptar a novas situações.<br/></li>
+                <li>Comunicação eficaz com os proprietários das casas.<br/></li>
+                <li>Habilidade em trabalhar em equipe, quando necessário.<br/><br/></li>
+                Referências: Disponíveis mediante solicitação.<br/>
+                (A última foto é do meu fiel escudeiro, Medroca)
+            </ul>
+        </article>
+    </section>
+    <section class="contato" id="contato">
+        <div class="contato-container">
+            <article>
+                <h1>Entre em contato</h1>
+                <form>
+                    <input id="nome" type="text" placeholder="Seu nome">
+                    <input id="email" type="email" placeholder="Seu email">
+                    <textarea id="caso" type="text" placeholder="Descreva o seu caso"></textarea>
+                    <label for="gravidade">Gravidade do caso</label>
+                    <input id="gravidade" type="range" min="0" max="50" value="0">
+                    <p>Tipo de ameaça</p>
+                    <div class="ameaca-tipo">
+                        <input id="passaros" type="checkbox">
+                        <label id="passaros">Pássaros</label>                        
+                    </div>
+                    <div class="ameaca-tipo">
+                        <input id="roedores" type="checkbox">
+                        <label for="roedores">Roedores</label>
+                    </div>
+                    <div class="ameaca-tipo">
+                        <input id="insetos" type="checkbox">
+                        <label for="insetos">Insetos</label>                        
+                    </div>
+                    <div class="ameaca-tipo">
+                        <input id="humanos" type="checkbox">
+                        <label for="humanos">Humanos</label>                        
+                    </div>
+                    <div class="ameaca-tipo">
+                        <input id="outros" type="text" placeholder="Outro:">
+                    </div>
+                    <div class="ameaca-botoes">
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </div>
+                </form>    
+            </article>
+            <article>
+                <h2>Nosso escritório</h2>
+                <p>Rua Snowbell nº145, Jardim Lasanha</br/>Rio de Gateiro - Miausil</p>
+            </article>
+            <article">
+                <h2>Nossas Redes Sociais</h2>
+                <div>
+                    <a href="#">
+                        <img src="./assets/img/redes-sociais/instagram.png" alt="Instagram">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/redes-sociais/facebook.png" alt="Facebook">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/redes-sociais/youtube.png" alt="Youtube">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/redes-sociais/tiktok.jpg" alt="TikTok">
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <footer>
+        <h4>
+            &copy; O Gato Valentim - Todos os direitos reservados - 2023
+        </h4>
+    </footer>
+</body>
+</html>
