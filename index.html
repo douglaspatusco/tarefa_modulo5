@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Módulo 4 - Exercício</title>
+    <title>Valentim, O Gato | Curriculum Vitae</title>
 
+    <link rel="icon" href="/assets/favicon.png" type="image/png" />
     <link rel="stylesheet" href="./main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,9 +14,9 @@
 </head>
 <body>
     <header>
-        <div class="header-container">
+        <div>
             <img src="./assets/img/gatos/logo.jpg" alt="Gato assustado">
-            <h1>O GATO VALENTIN</h1>
+            <h1>VALENTIN, O GATO</h1>
         </div>
         <nav>
             <ul>
@@ -28,19 +29,19 @@
             </ul>
         </nav>
     </header>
-    <section class="curriculo">
-        <div class="front-images">
+    <main class="curriculo">
+        <div>
             <img src="./assets/img/gatos/apresentacao.jpg" alt="Foto de currículo">
             <img src="./assets/img/gatos/medroca.jfif" alt="Assustadíssimo">
         </div>
         <article>
-            <h2>Procurando uma posição como especialista em espantar ameaças em casas.</h2><br/><br/>
+            <h2>Especialista em espantar ameaças</h2><br/><br/>
             <ul>
                 <h3>Perfil Profissional:<br/><br/></h3>
                 <li>Gato medroso, mas especialista em assustar outros animais.<br/></li>
                 <li>Habilidoso em perseguir, saltar e fazer barulho para espantar os animais.<br/></li>
                 <li>Possui experiência em trabalhar em casas, especialmente na área de controle de pragas.<br/></li>
-                <li>Excelente capacidade de adaptação a novos ambientes e pessoas.<br/></br></li>
+                <li>Excelente capacidade de adaptação a novos ambientes e pessoas.<br/><br/></li>
                 <h3>Experiência Profissional:<br/><br/></h3>
                 <li>Especialista em espantar animais em casas particulares (Atualmente trabalhando)<br/></li>
                 <li>Responsável por controlar a presença de outros animais nas casas, especialmente roedores.<br/></li>
@@ -59,70 +60,72 @@
                 (A última foto é do meu fiel escudeiro, Medroca)
             </ul>
         </article>
-    </section>
-    <section class="contato" id="contato">
-        <div class="contato-container">
-            <article>
-                <h1>Entre em contato</h1>
-                <form>
-                    <input id="nome" type="text" placeholder="Seu nome">
-                    <input id="email" type="email" placeholder="Seu email">
-                    <textarea id="caso" type="text" placeholder="Descreva o seu caso"></textarea>
-                    <label for="gravidade">Gravidade do caso</label>
-                    <input id="gravidade" type="range" min="0" max="50" value="0">
-                    <p>Tipo de ameaça</p>
-                    <div class="ameaca-tipo">
-                        <input id="passaros" type="checkbox">
-                        <label id="passaros">Pássaros</label>                        
-                    </div>
-                    <div class="ameaca-tipo">
-                        <input id="roedores" type="checkbox">
-                        <label for="roedores">Roedores</label>
-                    </div>
-                    <div class="ameaca-tipo">
-                        <input id="insetos" type="checkbox">
-                        <label for="insetos">Insetos</label>                        
-                    </div>
-                    <div class="ameaca-tipo">
-                        <input id="humanos" type="checkbox">
-                        <label for="humanos">Humanos</label>                        
-                    </div>
-                    <div class="ameaca-tipo">
-                        <input id="outros" type="text" placeholder="Outro:">
-                    </div>
-                    <div class="ameaca-botoes">
-                        <button type="submit">Enviar</button>
-                        <button type="reset">Limpar</button>
-                    </div>
-                </form>    
-            </article>
-            <article>
-                <h2>Nosso escritório</h2>
-                <p>Rua Snowbell nº145, Jardim Lasanha</br/>Rio de Gateiro - Miausil</p>
-            </article>
-            <article">
-                <h2>Nossas Redes Sociais</h2>
-                <div>
-                    <a href="#">
-                        <img src="./assets/img/redes-sociais/instagram.png" alt="Instagram">
-                    </a>
-                    <a href="#">
-                        <img src="./assets/img/redes-sociais/facebook.png" alt="Facebook">
-                    </a>
-                    <a href="#">
-                        <img src="./assets/img/redes-sociais/youtube.png" alt="Youtube">
-                    </a>
-                    <a href="#">
-                        <img src="./assets/img/redes-sociais/tiktok.jpg" alt="TikTok">
-                    </a>
+    </main>
+    <section id="contato">
+        <h1>Entre em contato</h1>
+        <form>
+            <div class="dados-cliente">
+                <input id="nome" type="text" placeholder="Seu nome">
+                <input id="email" type="email" placeholder="Seu email">
+                <textarea id="caso" type="text" placeholder="Descreva o seu caso"></textarea>
+            </div>
+            <div class="gravidade">
+                <label for="gravidade">Gravidade do caso</label>
+                <input id="gravidade" type="range" min="0" max="50" value="0">
+            </div>
+            <div class="ameaca">
+                <p>Tipo de ameaça</p>
+                <div class="ameaca-tipo">
+                    <input id="passaros" type="checkbox">
+                    <label for="passaros">Pássaros</label>
                 </div>
-            </article>
-        </div>
+                <div class="ameaca-tipo">
+                    <input id="roedores" type="checkbox">
+                    <label for="roedores">Roedores</label>
+                </div>
+                <div class="ameaca-tipo">
+                    <input id="insetos" type="checkbox">
+                    <label for="insetos">Insetos</label>
+                </div>
+                <div class="ameaca-tipo">
+                    <input id="humanos" type="checkbox">
+                    <label for="humanos">Humanos</label>
+                </div>
+                <div class="ameaca-tipo">
+                    <input id="outros" type="text" placeholder="Outro:">
+                </div>
+            </div>
+            <div class="ameaca-botoes">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </form>    
     </section>
     <footer>
+        <article class="endereco">
+            <h2>Nosso escritório</h2>
+            <p>Rua Snowbell nº145, Jardim Lasanha<br/>Rio de Gateiro - Miausil</p>
+        </article>
         <h4>
-            &copy; O Gato Valentim - Todos os direitos reservados - 2023
+            &copy; Valentim, O Gato - Todos os Direitos Reservados - 2025
         </h4>
+        <article class="redes-sociais">
+            <h2>Nossas Redes Sociais</h2>
+            <div>
+                <a href="#">
+                    <img src="./assets/img/redes-sociais/instagram.png" alt="Instagram">
+                </a>
+                <a href="#">
+                    <img src="./assets/img/redes-sociais/facebook.png" alt="Facebook">
+                </a>
+                <a href="#">
+                    <img src="./assets/img/redes-sociais/youtube.png" alt="Youtube">
+                </a>
+                <a href="#">
+                    <img src="./assets/img/redes-sociais/tiktok.jpg" alt="TikTok">
+                </a>
+            </div>
+        </article>
     </footer>
 </body>
 </html>
