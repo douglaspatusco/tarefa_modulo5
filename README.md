@@ -31,7 +31,5 @@ git clone https://github.com/douglaspatusco/valentim-o-gato.git
 
 cd valentim-o-gato
 
-npm install
-
-npm run dev
+# open index.html or run live server
 ```
