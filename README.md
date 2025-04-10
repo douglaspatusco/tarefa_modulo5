@@ -27,14 +27,11 @@ Este projeto é uma proposta divertida que apresenta o **currículo fictício** 
 ## 📁 Como rodar localmente
 
 ```bash
-# Clone o repositório
 git clone https://github.com/douglaspatusco/valentim-o-gato.git
 
-# Entre na pasta do projeto
 cd valentim-o-gato
 
-# Instale as dependências
 npm install
 
-# Rode o servidor de desenvolvimento
 npm run dev
+```
