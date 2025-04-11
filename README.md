@@ -5,6 +5,10 @@ Este projeto é uma proposta divertida que apresenta o **currículo fictício** 
 
 [🔗 Acesse o site](https://valentim-o-gato.vercel.app/)
 
+## 📸 Demonstração
+
+![preview](https://i.imgur.com/zMu1wwZ.png)
+
 ---
 
 ## 🔍 Funcionalidades
